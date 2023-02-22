@@ -1,0 +1,27 @@
+# pytest dirs
+.pytest_cache
+common/.pytest_cache
+tc/.pytest_cache
+
+# pycharm
+.idea
+
+# Logs
+log/*.txt
+tc/log
+
+# test dir
+tc/.paytest_cache
+my
+myt/*
+aa.py
+com/asserts
+
+#allure
+/allure_report/
+/allure_results/
+
+
+venv/
+
+__pycache__/

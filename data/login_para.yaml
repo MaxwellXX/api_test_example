@@ -1,0 +1,54 @@
+---
+#login成功
+url: /login
+method: POST
+step: login a valid user
+base_assertion_only: false
+base_assertion_path:
+  - access
+data:
+  username: app2
+  password: silver
+expect:
+-
+  type: keys_equal
+  data:
+  -
+    keys:
+      - root
+    value:
+      - access
+      - company
+      - countries
+      - default_role
+      - id
+      - email
+      - multi_report
+      - permissions
+      - roles
+      - secrets
+      - token
+      - username
+      - trade_area
+      - basemap
+---
+#login失败
+url: /login
+method: POST
+step: login invalid user
+base_assertion_only: False
+base_assertion_path:
+  - access
+data:
+  username: uptest1
+  password: pass
+expect:
+-
+  type: keys_equal
+  data:
+  -
+    keys:
+      - root
+    value:
+      - status_code
+      - message

@@ -1,0 +1,51 @@
+version: '3.0'
+services:
+  web:
+    image: pyallure:v4
+    volumes:
+      - /me/test-api:/test-api
+      - /root/maxwell/tools/skey:/root
+    working_dir: /leap-api
+    command: bash -c "tail -f /dev/null"
+    # command: python run.py
+    #command: >
+      #bash -c "python run.py
+      #&& tail -f /dev/null"
+    depends_on:
+      - redis
+      - nginx
+      - grafana
+      - influxdb
+
+  redis:
+    image: redis:5.0.0
+    ports:
+      - 16379:6379
+
+  nginx:
+    image: nginx
+    ports:
+     - 8080:80
+    volumes:
+     - /var/test/allure-report:/usr/share/nginx/html
+
+  grafana:
+    image: grafana/grafana
+    user: "${UID}:${GID}"
+    ports:
+      - 3000:3000
+    volumes:
+    - /me/grafana:/var/lib/grafana
+    - /me/grafana/plugins:/var/lib/grafana/plugins
+
+  influxdb:
+    image: influxdb
+    ports:
+      - 8083:8083
+      - 8086:8086
+    volumes:
+      - /me/influxdb:/var/lib/influxdb
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=sheila
+      - GF_USERS_ALLOW_SIGN_UP=false
+

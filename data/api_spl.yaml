@@ -1,0 +1,111 @@
+---
+# admin user
+step: superuser
+username: app1
+pwd: silver
+pid: GM11
+avlength: 38
+scn: 22
+permission_item:
+  - item1
+  - item1 outlet shop
+  - item2 Man
+  - item2 Woman
+  - item3
+  - item4's
+  - item5 Kids
+  - item5
+  - item5 OUTLET
+  - item6 Kids
+  - item6
+  - item7 Factory Outlet
+  - item7
+  - item7 basketball
+  - item7 football
+  - item7 Infant
+  - item7 Kids
+  - item7 NEO
+  - item7 originals
+  - item7 running
+  - item7 SPORTSWEAR COLLECTIVE
+  - item7 Terrex
+  - item7 women
+  - item7 YOUNG ATHLETES
+  - item8
+  - item9 OUTLET
+  - item1 outlet shop
+  - item1
+  - item2 Man
+  - item2 OUTLET
+  - item2
+  - item2 Woman
+  - item9
+  - item3
+  - item3 Outlet
+  - item10
+  - item11
+  - item12 Composite
+  - item12
+  - item12 L!VE
+  - item12 Outlet
+  - item4's
+  - item13
+  - item14
+  - NB1906
+  - Nitem5 Kids
+  - Nitem5
+  - Nitem5 OUTLET
+  - item24
+  - item15 Athletic
+  - item15 Basketball
+  - item15 Football
+  - item15 FACTORY OUTLET
+  - item15 FW Focus
+  - item15 KICKS LOUNGE
+  - item15 Kids
+  - item15 Running
+  - item15 D'Lites
+  - item15 SPORTSWEAR
+  - item15 YOUNG ATHLETES
+  - item17
+  - item18
+  - item19
+  - item6 Kids
+  - item6 D'Lites
+  - item6 Lifestyle
+  - item6 OUTLET
+  - item6
+  - item6 SUPERSTORE
+  - item20
+  - item16
+  - item16 Outlet
+  - item21 FACTORY STORE
+  - item21
+  - item22
+  - item23 HOME
+  - item23
+---
+# item6 user
+step: item6
+username: item6-tester
+pwd: silver
+pid: GM12
+avlength: 3
+scn: 2
+permission_item:
+  - item13
+  - item6 Kids
+  - item6 D'Lites
+  - item6 Lifestyle
+  - item6 OUTLET
+  - item6
+---
+# item9 user
+step: admin
+username: item9-robot
+pwd: silver
+pid: GM13
+avlength: 1
+scn: 1
+permission_item:
+  - item10

@@ -1,0 +1,588 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": [
+    "field1",
+    "field2",
+    "field3",
+    "field4",
+    "field5",
+    "field6"
+  ],
+  "properties": {
+    "field1": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "field2": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "field3": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "field4": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "field5": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "field6": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    },
+    "Beauty&Jewellery": {
+      "type": "object",
+      "required": [
+        "sub_field1",
+        "sub_field2",
+        "sub_field3",
+        "sub_field4",
+        "sub_field5",
+        "sub_field2_avg",
+        "sub_field6",
+        "sub_field1_field2s_reporting",
+        "sub_field2_field2s_reporting"
+      ],
+      "properties": {
+        "sub_field1": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field3": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": -1,
+          "maximum": 1
+        },
+        "sub_field4": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field5": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_avg": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 10
+        },
+        "sub_field6": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field1_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "sub_field2_field2s_reporting": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

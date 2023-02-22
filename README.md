@@ -9,13 +9,11 @@ This project includes simpe python scripts to run http api test, together with t
   `brew install allure`
 - install redis
   `brew install redis`  
-### run tests 
+ ### run tests
 in command line, in the project directory, you can run:
-
   `python run.py`
 
 ## how to run tests in ubuntu
-### install dependencies
 - install docker, docker-compose
 - pull redis:5.0.0,latest nginx,grafana,influxdb images
 - build python-allure from the Dockerfile in project dir
